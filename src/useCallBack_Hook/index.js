@@ -16,7 +16,7 @@ const UseCallBackHook = () => {
   return (
     <>
       {count}
-      <CounterButton increment={increment3} />{" "}
+      <CounterButton increment={increment} />{" "}
       {/* incerement propsunu ,inceremnt 2 ile degistirirsek her renderi console-da gorecegiz*/}
       <input type={"number"} onChange={(e) => setValue(+e.target.value)} />
       {/* incerement3 de ise ,input degerini onchange ile handle edip ,set yaptigimizdan re-render olucak.Ancak butona bastigimizda re-render olmuycak.*/}
