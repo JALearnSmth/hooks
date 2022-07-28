@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import UseCallBackHook from "./useCallBack_Hook";
 import UseContextHook from "./useContext_Hook";
 import UseMemoHook from "./useMemo_Hook";
+import UseReducerHook from "./useReducer_Hook";
 import UseRefHook from "./useRef_Hook";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,9 @@ root.render(
     <hr />
     <h1 style={{ color: "#987654" }}>Header:useMemo</h1>
     <UseMemoHook />
+    <hr />
+    <h1 style={{ color: "#545454" }}>Header:useReducer</h1>
+    <UseReducerHook />
     <hr />
   </React.StrictMode>
 );
